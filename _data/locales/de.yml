@@ -54,8 +54,8 @@ post:
   written_by: By
   posted: Geposted
   updated: Aktualisiert
-  words: words
-  pageview_measure: views
+  words: Wörter
+  pageview_measure: Views
   read_time:
     unit: min
     prompt: lesen
