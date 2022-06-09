@@ -28,13 +28,13 @@ sudo apt install -y mailutils
 
 Während der Installation von *Postfix* wird auch die Grundkonfiguration vorgenommen. Diese sollte bei einem externen Mailserver, wie in diesem Beispiel, wie auf dem Bild zu sehen, eingestellt werden.
 
- ![Postfix Configuration](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix01.png)
+ ![Postfix Configuration](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix01.png?raw=true)
 
- ![Internet Site](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix02.png)
+ ![Internet Site](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix02.png?raw=true)
 
 Hier wählt man **Internet Site** aus, da die Mails ja zu einem Mailserver im Internet transferiert werden.
 
- ![Eingabe des Mailservers](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix03.png)
+ ![Eingabe des Mailservers](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix03.png?raw=true)
 
 Nach der Eingabe der FQDN, ist die Grundinstallation abgeschlossen.
 
