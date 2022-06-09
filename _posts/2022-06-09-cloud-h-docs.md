@@ -5,8 +5,6 @@ categories: [Homelab]
 tags: []
 ---
 
-# Willkommen auf docs.cloud-h.eu
-
 Herzlich Willkommen auf docs.cloud-h.eu - der Seite für alle Home Lab Enthusiasten, die neue Dinge lernen und ausprobieren wollen. 
 
 Hier werden unregelmäßig neue Posts zu verschiedenen Themen rund um Virtualisierung und Containerizsation mit Docker erscheinen. 
