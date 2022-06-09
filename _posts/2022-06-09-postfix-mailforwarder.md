@@ -29,19 +29,25 @@ sudo apt install -y mailutils
 Während der Installation von *Postfix* wird auch die Grundkonfiguration vorgenommen. Diese sollte bei einem externen Mailserver, wie in diesem Beispiel, wie auf dem Bild zu sehen, eingestellt werden.
 
  ![Postfix Configuration](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix01.png?raw=true)
+ _Postfix Configuration_
+
 
  ![Internet Site](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix02.png?raw=true)
+_Internet Site auswählen_
+
 
 Hier wählt man **Internet Site** aus, da die Mails ja zu einem Mailserver im Internet transferiert werden.
 
  ![Eingabe des Mailservers](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-06-09-postfix/postfix03.png?raw=true)
+ _Eingabe des Mailservers_
+ 
 
 Nach der Eingabe der FQDN, ist die Grundinstallation abgeschlossen.
 
 
 ## Konfiguration von Postfix
 
-Zunächst muss in der *Postfix* `main.cf` Datei eine Anpssung gemacht werden.In der Datei stehen zu Beginn schon einige Konfigurationen. Scrollt man ganz nach unten gibt es hier den Eintrag `relayhost=` - dieser muss entfernt werden.Anschließend fügt man ganz am Ende der Datei folgenden Codeschnipsel ein. Dabei muss bei `relayhost=` zwischen den eckigen Klammern die passende Mailserver Domain eingesetzt werden. (Bsp.: `[admin.h-servers.de]`).
+Zunächst muss in der *Postfix* `main.cf` Datei eine Anpssung gemacht werden.In der Datei stehen zu Beginn schon einige Konfigurationen. Scrollt man ganz nach unten gibt es hier den Eintrag `relayhost=` - dieser muss entfernt werden.Anschließend fügt man ganz am Ende der Datei folgenden Codeschnipsel ein. Dabei muss bei `relayhost=` zwischen den eckigen Klammern die passende Mailserver Domain eingesetzt werden. (Bsp.: `[smtp.example.com]`).
 
 
 ```bash
