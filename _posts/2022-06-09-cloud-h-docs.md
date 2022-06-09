@@ -1,6 +1,6 @@
 ---
 title: Willkommenauf auf docs.cloud-h.eu
-date: 2022-06-09 17:15:00 +200
+date: 2022-06-09 17:18:00 +200
 categories: [Homelab]
 tags: []
 ---
