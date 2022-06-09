@@ -11,9 +11,9 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: Kategorie
+  categories: Kategorien
   tags: Tags
-  archives: Archive
+  archives: Archiv
   about: About
 
 # the text displayed in the search bar & search results
@@ -30,7 +30,7 @@ panel:
 copyright:
   # Shown at the bottom of the post
   license:
-    template: Dieser Beitrag ist lizenziert unter :LICENSE_NAME durch den Autor.
+    template: Dieser Beitrag wurde durch den Autor mit der Lizenz :LICENSE_NAME lizenziert.
     name: CC BY 4.0
     link: https://creativecommons.org/licenses/by/4.0/
 
