@@ -2,10 +2,10 @@
 #  Icons from <https://fontawesome.com/>
 
 platforms:
-  -
-    type: Twitter
-    icon: "fab fa-twitter"
-    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
+  # -
+  #   type: Twitter
+  #   icon: "fab fa-twitter"
+  #   link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
   -
     type: Facebook
     icon: "fab fa-facebook-square"
@@ -14,6 +14,11 @@ platforms:
     type: Telegram
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
+    -
+    type: Whatsapp
+    icon: "fab fa-whatsapp"
+    # link: "https://t.me/share/url?url=URL&text=TITLE"
+    link: "whatsapp://send?text=Schau%20dir%20doch%20den%20Beitrag%20einmal%20an%3A%20TITLE&url=URL"
 
   # Uncomment below if you need to.
   # -
