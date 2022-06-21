@@ -18,7 +18,7 @@ platforms:
     type: Whatsapp
     icon: "fab fa-whatsapp"
     # link: "https://t.me/share/url?url=URL&text=TITLE"
-    link: "https://api.whatsapp.com/send?text=Schau%20dir%20doch%20den%20Beitrag%20einmal%20an%3A%20TITLE&URL"
+    link: "https://api.whatsapp.com/send?text=URL%3ASchau%20dir%20doch%20den%20Beitrag%20einmal%20an%3A%20TITLE"
 
   # Uncomment below if you need to.
   # -
