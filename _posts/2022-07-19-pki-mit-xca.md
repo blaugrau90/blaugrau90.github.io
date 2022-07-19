@@ -17,7 +17,7 @@ Der Aufbau einer solchen Struktur kann mit XCA ebenfalls abgebildet werden. XCA 
 Ein korrekter Aufbau ist deshalb notwendig, um die sog. Chain of Trust sicherzustellen, also die Vertrauenswürdigkeit der gesamten Zertifikatskette von Server-Zertifikat bis zurück zum Root Zertifikat. Der Aufbau und das Signing wird im folgenden Bild beschrieben (<https://en.wikipedia.org/wiki/Chain_of_trust#/media/File:Chain_Of_Trust.svg>)
 
 
- ![](https://en.wikipedia.org/wiki/Chain_of_trust#/media/File:Chain_Of_Trust.svg?raw=true)
+ ![](https://github.com/blaugrau90/blaugrau90.github.io/blob/main/assets/img/postimg/2022-07-19-pki-mit-xca/01.png?raw=true)
 
 
 ## Erstellung der Root CA
